@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Ana Silva - Psicóloga Clínica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     Navigation 
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-heart me-2"></i>Dra. Ana Silva
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     Hero Section 
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="hero-title mb-4">
+                        Encontre o equilíbrio emocional que você merece
+                    </h1>
+                    <p class="hero-subtitle mb-4">
+                        Psicóloga clínica especializada em terapia cognitivo-comportamental. 
+                        Oferecendo um espaço seguro e acolhedor para sua jornada de autoconhecimento.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-calendar-alt me-2"></i>Agendar Consulta
+                        </a>
+                        <a href="#sobre" class="btn btn-outline-secondary btn-lg">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="/placeholder.svg?height=500&width=500" 
+                             alt="Dra. Ana Silva - Psicóloga" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Sobre Section 
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="/placeholder.svg?height=400&width=400" 
+                         alt="Sobre Dra. Ana Silva" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">Sobre Dra. Ana Silva</h2>
+                    <p class="mb-4">
+                        Com mais de 10 anos de experiência em psicologia clínica, dedico-me a ajudar pessoas 
+                        a superarem desafios emocionais e desenvolverem ferramentas para uma vida mais plena.
+                    </p>
+                    <div class="credentials mb-4">
+                        <div class="credential-item mb-3">
+                            <i class="fas fa-graduation-cap text-primary me-3"></i>
+                            <span>Graduação em Psicologia - USP</span>
+                        </div>
+                        <div class="credential-item mb-3">
+                            <i class="fas fa-certificate text-primary me-3"></i>
+                            <span>Especialização em Terapia Cognitivo-Comportamental</span>
+                        </div>
+                        <div class="credential-item mb-3">
+                            <i class="fas fa-users text-primary me-3"></i>
+                            <span>Mais de 1000 pacientes atendidos</span>
+                        </div>
+                    </div>
+                    <p class="text-muted">
+                        Acredito que cada pessoa possui recursos internos únicos para superar suas dificuldades. 
+                        Meu papel é facilitar esse processo de descoberta e crescimento pessoal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Depoimentos Section 
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">O que dizem meus pacientes</h2>
+                <p class="text-muted">Depoimentos reais de pessoas que transformaram suas vidas</p>
+            </div>
+            
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        "A Dra. Ana me ajudou a superar um período muito difícil da minha vida. 
+                                        Sua abordagem acolhedora e profissional fez toda a diferença no meu processo de cura."
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>Maria Santos</strong>, 34 anos
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        "Encontrei na terapia com a Dra. Ana as ferramentas que precisava para lidar com a ansiedade. 
+                                        Hoje me sinto muito mais confiante e preparado para os desafios da vida."
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>João Silva</strong>, 28 anos
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="stars mb-3">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        "A terapia me proporcionou um autoconhecimento que eu nunca imaginei ser possível. 
+                                        Recomendo a Dra. Ana para qualquer pessoa que busque crescimento pessoal."
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>Ana Paula</strong>, 42 anos
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+     Preços Section 
+    <section id="precos" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Investimento em seu bem-estar</h2>
+                <p class="text-muted">Valores acessíveis para cuidar da sua saúde mental</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="price-card h-100">
+                        <div class="card-header text-center">
+                            <h4 class="card-title">Consulta Individual</h4>
+                            <div class="price">
+                                <span class="currency">R$</span>
+                                <span class="amount">150</span>
+                                <span class="period">/sessão</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Sessão de 50 minutos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Atendimento presencial ou online
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Flexibilidade de horários
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Acompanhamento personalizado
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contato" class="btn btn-primary btn-lg w-100">
+                                Agendar Consulta
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p class="text-muted">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Aceito convênios médicos. Entre em contato para mais informações.
+                </p>
+            </div>
+        </div>
+    </section>
+
+     FAQ Section 
+    <section id="faq" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="text-muted">Tire suas dúvidas sobre o processo terapêutico</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Como funciona a primeira consulta?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Na primeira consulta, faremos uma conversa inicial para entender suas necessidades e expectativas. 
+                                    É um momento para você se sentir à vontade e esclarecer dúvidas sobre o processo terapêutico.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Qual a frequência das sessões?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada conforme suas necessidades 
+                                    e disponibilidade. O importante é manter a continuidade do processo.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Atende online?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim! Ofereço atendimento tanto presencial quanto online, através de plataformas seguras e confiáveis. 
+                                    A terapia online tem a mesma eficácia que a presencial.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Quanto tempo dura o tratamento?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    O tempo de tratamento varia para cada pessoa e situação. Alguns casos podem ser resolvidos em poucos meses, 
+                                    enquanto outros podem necessitar de um acompanhamento mais longo. Avaliaremos juntos o progresso.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Aceita convênio médico?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim, aceito os principais convênios médicos. Entre em contato para verificar se seu plano está 
+                                    na lista de convênios credenciados.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Contato Section 
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="text-muted">Estou aqui para ajudar você. Vamos conversar?</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="nome" class="form-label">Nome Completo</label>
+                                <input type="text" class="form-control" id="nome" name="nome" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone (opcional)</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" rows="5" 
+                                      placeholder="Conte-me um pouco sobre o que você gostaria de trabalhar na terapia..." required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Enviar Mensagem
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <i class="fas fa-phone fa-2x text-primary mb-3"></i>
+                        <h5>Telefone</h5>
+                        <p class="text-muted">(11) 99999-9999</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+                        <h5>E-mail</h5>
+                        <p class="text-muted">contato@draanasilva.com.br</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt fa-2x text-primary mb-3"></i>
+                        <h5>Localização</h5>
+                        <p class="text-muted">São Paulo, SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Footer 
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Dra. Ana Silva - Psicóloga. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-light me-3">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-light me-3">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-light">
+                            <i class="fab fa-whatsapp fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
